@@ -1,0 +1,39 @@
+.input-task {
+  background-color: hsl(235, 24%, 19%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px hsl(235, 21%, 11%);
+}
+
+.ckb-container {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.ckb-container input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  -webkit-appearance: none;
+  border: 0.1px solid hsl(234, 11%, 52%);
+  border-radius: 50%;
+  outline: transparent;
+  cursor: pointer;
+}
+
+.input-task input[type="text"] {
+  background-color: transparent;
+  color: hsl(234, 39%, 85%);
+  height: 100%;
+  width: 85%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+  outline: transparent;
+  caret-color: hsl(220, 98%, 61%);
+}

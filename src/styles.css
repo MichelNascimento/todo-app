@@ -1,0 +1,14 @@
+@import './css/Body/BodyStyle.css';
+@import './css/Header/HeaderStyle.css';
+@import './css/InputTask/InputTaskStyle.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Josefin Sans', sans-serif;
+}

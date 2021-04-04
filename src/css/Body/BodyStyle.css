@@ -1,0 +1,14 @@
+.bg-image img {
+  width: 100%;
+}
+
+body {
+  background-color: hsl(235, 21%, 11%);
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 200px;
+}

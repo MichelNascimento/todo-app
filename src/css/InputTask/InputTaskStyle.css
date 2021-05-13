@@ -32,8 +32,10 @@
   color: hsl(234, 39%, 85%);
   height: 100%;
   width: 85%;
+  padding: 0 1.5rem 0 0;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
   outline: transparent;
   caret-color: hsl(220, 98%, 61%);
 }

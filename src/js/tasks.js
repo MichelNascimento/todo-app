@@ -1,7 +1,7 @@
 export default class Tasks {
-  constructor(inputTask, ompleted) {
+  constructor(inputTask, completed) {
     this.inputTask = document.querySelector(inputTask)
-    this.completed = document.querySelector(ompleted)
+    this.completed = document.querySelector(completed)
 
     this.createNewTask = this.createNewTask.bind(this)
   }

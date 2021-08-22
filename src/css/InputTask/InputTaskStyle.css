@@ -28,7 +28,7 @@
 }
 
 .ckb-container input[type="checkbox"]:checked {
-  background-image: linear-gradient(rgb(118, 177, 191), rgb(184, 71, 206));
+  background-image: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
 }
 
 .input-task input[type="text"] {

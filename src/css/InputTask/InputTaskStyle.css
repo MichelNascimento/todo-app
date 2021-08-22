@@ -27,6 +27,10 @@
   cursor: pointer;
 }
 
+.ckb-container input[type="checkbox"]:checked {
+  background-image: linear-gradient(rgb(118, 177, 191), rgb(184, 71, 206));
+}
+
 .input-task input[type="text"] {
   background-color: transparent;
   color: hsl(234, 39%, 85%);

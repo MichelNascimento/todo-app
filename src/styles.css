@@ -1,6 +1,7 @@
 @import "./css/Body/BodyStyle.css";
 @import "./css/Header/HeaderStyle.css";
 @import "./css/InputTask/InputTaskStyle.css";
+@import "./css/TaskComponent/TaskComponentStyle.css";
 
 * {
   margin: 0;

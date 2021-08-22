@@ -1,0 +1,28 @@
+.task-item {
+  background-color: hsl(235, 24%, 19%);
+  color: hsl(234, 39%, 85%);
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.task-item input[type="checkbox"]{
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  -webkit-appearance: none;
+  border: 0.1px solid hsl(234, 11%, 52%);
+  border-radius: 50%;
+  outline: transparent;
+  cursor: pointer;
+}
+
+.task-item input[type="checkbox"]:checked {
+  background-image: linear-gradient(rgb(118, 177, 191), rgb(184, 71, 206));
+}
